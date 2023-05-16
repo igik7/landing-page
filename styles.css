@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    background-color: #1F2937;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.right {
+    margin-left: auto;
+    margin-right: 100px;
+    
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+    font-size: 40px;
+    align-items: center;
+}
+
+.logo {
+    height: 300px;
+    margin: 25px;
+    margin-left: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+h2 { 
+    font-size: 65px;
+}
