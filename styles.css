@@ -1,15 +1,12 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
 body {
     margin: 0;
+    padding: 0;
     text-decoration: none;
     
-}
-nav {
-    display: flex;
-    background-color: #1F2937;
-}
-a {
-    text-decoration: none;
-    color: #E5E7EB;
 }
 h2 { 
     font-size: 65px;
@@ -20,20 +17,26 @@ p {
     color: #eee;
     font-size: 18px;
 }
+.navbar {
+    display: flex;
+    background-color: #253142;
+}
 ul {
     display: flex;
     gap: 50px;
-    font-size: 40px;
+    font-size: 30px;
     align-items: center;
 }
-
-.right {
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.nav-companies {
     margin-left: auto;
-    margin-right: 100px;
-    
+    margin-right: 150px;
 }
 .logo {
-    height: 300px;
+    height: 200px;
     margin: 25px;
     margin-left: 150px;
 }
@@ -65,4 +68,26 @@ button {
     color: #eee;
     padding: 10px;
     font-size: 18px;
+}
+
+.PL-perks {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 500px;
+    align-items: center;
+}
+
+.img-perks {
+    width: 200px;
+    height: 300px;
+    border: 5px solid #3882f6;
+    border-radius: 5px;
+    object-fit: cover;
+    object-position: 38% 0;
+}
+.column-PL {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
