@@ -24,7 +24,7 @@ p {
 ul {
     display: flex;
     gap: 50px;
-    font-size: 30px;
+    font-size: 20px;
     align-items: center;
 }
 a {
@@ -36,7 +36,7 @@ a {
     margin-right: 150px;
 }
 .logo {
-    height: 200px;
+    height: 100px;
     margin: 25px;
     margin-left: 150px;
 }
@@ -82,8 +82,8 @@ color: black;
     display: flex;
     justify-content: center;
     gap: 50px;
-    height: 500px;
-    align-items: center;
+    height: 1800px;
+    align-items: flex-start;
 }
 
 .img-perks {
@@ -95,12 +95,19 @@ color: black;
     object-position: 38% 0;
 }
 .column-PL {
+    transition: all .3s ease-in-out;
     gap: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
     font-weight: 600;
+    margin-top: 80px;
 }
 
-.column-PL { transition: all .3s ease-in-out; }
-.column-PL:hover { transform: scale(1.2); }
+.column-PL:hover {
+     transform: scale(1.2); 
+    }
+
+section {
+    background-image: url(images/background.jpg);
+}
