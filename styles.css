@@ -191,3 +191,18 @@ margin-left: auto;
     font-weight: bold;
     margin-bottom: 0;
 }
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright {
+    display: flex;
+    background-color: #1F2937;
+    color: #fff; 
+    text-align: center;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
