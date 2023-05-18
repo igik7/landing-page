@@ -89,6 +89,7 @@ color: black;
     gap: 50px;
     align-items: flex-start;
     text-transform: uppercase;
+    margin-top: 20px;
 }
 
 .img-perks {
@@ -140,4 +141,18 @@ h2 {
 .quote-text {
     width: 600px;
     font-size: 35px;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.bottom-block {
+    padding: 35px 80px;
+    width: 800px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
 }
